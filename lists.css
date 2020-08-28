@@ -1,0 +1,10 @@
+ul
+{
+	list-style-type: square;
+	color: #3399ff;
+}
+ol 
+{
+	list-style-type: lower-alpha;
+	background: #ff9999;
+}
