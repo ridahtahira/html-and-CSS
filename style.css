@@ -31,3 +31,7 @@ a:link, a:visited {
 a:hover, a:active {
   background-color: green;
 }
+input[type="tel"]
+{
+	display:none;
+}
