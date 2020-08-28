@@ -17,7 +17,7 @@ body
 	font-family: 'Noto Serif', serif;
 	
 }
-a:link, a:visited {
+#register:link, #register:visited {
   background-color: red;
   color: white;
   padding: 14px 25px;
@@ -25,7 +25,7 @@ a:link, a:visited {
   display: inline-block;
 }
 
-a:hover, a:active {
+#register:hover, #register:active {
   background-color: green;
 }
 input[type="tel"]
@@ -37,4 +37,29 @@ img
 	float:left;
 	height:100px;
 	width:100px;
+}
+.inline{
+	display:inline;
+	float:left;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
 }
