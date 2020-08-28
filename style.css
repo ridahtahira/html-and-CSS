@@ -15,10 +15,7 @@ h1
 body
 {
 	font-family: 'Noto Serif', serif;
-}
-input[type="submit"]:link
-{
-	color: red;
+	
 }
 a:link, a:visited {
   background-color: red;
@@ -34,4 +31,10 @@ a:hover, a:active {
 input[type="tel"]
 {
 	display:none;
+}
+img
+{
+	float:left;
+	height:100px;
+	width:100px;
 }
