@@ -4,4 +4,9 @@ h1
 	text-transform:uppercase;
 	color:blue;
 	font-size:40px;
+	
+}
+body
+{
+	font-family: 'Noto Serif', serif;
 }
