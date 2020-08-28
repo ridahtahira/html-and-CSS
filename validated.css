@@ -1,0 +1,54 @@
+h1 {
+text-align : center;
+text-transform : uppercase;
+color : blue;
+font-size : 40px;
+border : black solid 1px;
+background-color : lightblue;
+padding-top : 20px;
+padding-right : 50px;
+padding-bottom : 20px;
+padding-left : 50px;
+}
+body {
+font-family : 'Noto Serif', serif;
+}
+#register:link, #register:visited {
+background-color : red;
+color : white;
+padding : 14px 25px;
+text-align : center;
+display : inline-block;
+}
+#register:hover, #register:active {
+background-color : green;
+}
+input[type="tel"] {
+display : none;
+}
+img {
+float : left;
+height : 100px;
+width : 100px;
+}
+.inline {
+display : inline;
+float : left;
+}
+ul {
+list-style-type : none;
+margin : 0;
+padding : 0;
+overflow : hidden;
+background-color : #333;
+}
+li a {
+display : block;
+color : white;
+text-align : center;
+padding : 14px 16px;
+text-decoration : none;
+}
+li a:hover {
+background-color : #111;
+}
